@@ -17,8 +17,8 @@ function injectButton(dialog) {
     btn.id = "externalizeAllButton";
     btn.innerText = "Externalize All";
     btn.style.position = "absolute";
-    btn.style.top = "8px";
-    btn.style.right = "20px";
+    btn.style.top = "3px";
+    btn.style.right = "10px";
     btn.style.zIndex = "99999";
     btn.style.padding = "8px 14px";
     btn.style.background = "#0070f2";

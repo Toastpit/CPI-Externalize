@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "CPI Externalize AutoFiller",
+    "version": "1.0",
+    "description": "Füllt automatisch alle Externalize-Parameter in CPI.",
+    "content_scripts": [
+      {
+        "matches": [
+          "https://*.hana.ondemand.com/*",
+          "https://*.cpitrial.hana.ondemand.com/*"
+        ],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  

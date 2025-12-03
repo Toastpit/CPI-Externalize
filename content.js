@@ -1,4 +1,4 @@
-console.log("[CPI Autofill] Loaded.");
+console.log("[CPI Autofill] Loaded. ");
 
 function waitForExternalizeDialog() {
     const dialog = document.querySelector("div[id*='extDialog']");
